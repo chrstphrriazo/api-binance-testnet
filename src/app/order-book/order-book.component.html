@@ -1,0 +1,9 @@
+<h1>Order Book Works!</h1>
+<div></div>
+<div>USDT per 1 BTC</div>
+<div class="ob" *ngFor="let data of orderbookData; let i = index">
+  USDT - BTC &nbsp;
+  <div *ngFor="let dataa of data; let j = index">
+     | {{dataa}} | 
+  </div>
+</div>
